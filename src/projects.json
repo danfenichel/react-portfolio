@@ -4,41 +4,41 @@
         "title": "Livdin",
         "github": "https://github.com/livingkurt/Livdin",
         "deployed": "https://livdin.herokuapp.com/",
-        "image": ""
+        "image": "./images/livdin.png"
     },
     {
         "id": 2,
         "title": "Food & Brew Finder",
         "github": "https://github.com/danfenichel/Project1",
         "deployed": "https://danfenichel.github.io/Project1",
-        "image": "../public/foodbrewfinder.png"
+        "image": "./images/foodbrewfinder.png"
     },
     {
         "id": 3,
         "title": "Fitness Tracker",
         "github": "https://github.com/danfenichel/fitness-tracker",
         "deployed": "https://ultimate-fitness-tracker.herokuapp.com/",
-        "image": "../public/fitnesstracker.png"
+        "image": "./images/fitnesstracker.png"
     },
     {
         "id": 4,
         "title": "Employee Tracker",
         "github": "https://github.com/danfenichel/employee-tracker",
         "deployed": "https://github.com/danfenichel/employee-tracker",
-        "image": "../public/employeetracker.png"
+        "image": "./images/employeetracker.png"
     },
     {
         "id": 5,
         "title": "Day Planner",
         "github": " https://github.com/danfenichel/day-planner",
         "deployed": "https://danfenichel.github.io/day-planner/",
-        "image": "../public/dayplanner.png"
+        "image": "./images/dayplanner.png"
     },
     {
         "id": 6,
         "title": "Password Generator",
         "github": " https://github.com/danfenichel/Password-Generator",
         "deployed": "https://danfenichel.github.io/Password-Generator/",
-        "image": "../public/passwordgen.png"
+        "image": "./images/passwordgen.png"
     }
 ]

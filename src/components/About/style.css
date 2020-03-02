@@ -1,0 +1,20 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.content {
+    border: solid 1px #cccccc;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#about {
+    margin-left: 10px;
+}

@@ -1,0 +1,14 @@
+nav {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+a.navbar-brand {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+header {
+    /* max-width: 1300px; */
+    margin: 0 auto;
+}

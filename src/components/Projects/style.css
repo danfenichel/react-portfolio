@@ -1,0 +1,19 @@
+/* /* .h-100 {
+    position: relative;
+} */
+
+.card-title {
+    /* position: absolute;
+    bottom: 0; */
+    text-align: center;
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+}

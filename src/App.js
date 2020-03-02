@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import projects from './projects.json';
-import Project from "./components/Projects";
-// import "../public/livdin.png"
+import ProjContainer from "./components/ProjContainer";
+import NavBar from "./components/NavBar";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import './App.css';
-import './dayplanner.png';
-import livdin from './livdin.png';
 
 class App extends Component {
   state = {
@@ -13,17 +15,13 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        {this.state.projects.map(project => (
-          <Project
-            id={project.id}
-            title={project.title}
-            image={project.image}
-            deployed={project.deployed}
-            github={project.github}
-          />
-        ))}
-      </div>
+      <Router>
+        <NavBar />
+        <Route exact path="/" component={About} />
+        <Route exact path="/portfolio" component={ProjContainer} />
+        <Route exact path="/contact" component={Contact} />
+        <Footer />
+      </Router>
     );
   }
 }
